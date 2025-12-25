@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'Minecraftia';
+  src: url('/fonts/Minecraftia-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+h1, h2, h3, h4, h5, h6, .heading {
+  font-family: 'Minecraftia', sans-serif;
+}
+
+p, a, span, div, body, .text, .paragraph {
+  font-family: 'Minecraftia', sans-serif;
+}
