@@ -1,8 +1,9 @@
 ---
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
-import '../styles/fonts.css';
+import "../styles/fonts.css";
 ---
+
 <!doctype html>
 <html lang="en">
 	<head>
@@ -12,14 +13,24 @@ import '../styles/fonts.css';
 		<meta name="generator" content={Astro.generator} />
 		<title>SurviWeb</title>
 	</head>
-	<body
-		class="h-full from-[#A39A98] bg-gradient-to-b via-[#656160] to-[#656160] text-white"
-	>
-		<Header />
-		<main class="mt-[90px] md:mt-[90px]">
-			<slot />
+	<body class="h-full text-white">
+		<main class="">
+			<div id="background-mask" class="min-h-screen">
+				<Header />
+
+					<slot />
+
+				<Footer />
+			</div>
 		</main>
-		<Footer />
 	</body>
 </html>
 
+<style is:global>
+	#background-mask {
+		background-image: url("/fondo.webp");
+		background-size: cover;
+		background-position: top;
+		background-repeat: no-repeat;
+	}
+</style>
