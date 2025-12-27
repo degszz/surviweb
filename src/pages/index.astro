@@ -5,10 +5,9 @@ import Layout from "../layouts/Layout.astro";
 <Layout>
 	<body class="h-full w-full flex flex-col justify-center items-center">
 		<div
-			class="w-full lg:min-w-[800px]  py-9 flex flex-col md:flex-row justify-center items-center md:items-center animate-fade-in animate-delay-200 animate-duration-slow pt-[130px]"
+			class="w-full lg:min-w-[800px] py-9 flex flex-col md:flex-row justify-center items-center md:items-center animate-fade-in animate-delay-200 animate-duration-slow pt-[130px]"
 		>
-		
-			<div class="text-start  max-w-[280px] md:max-w-[400px]">
+			<div class="text-start max-w-[280px] md:max-w-[400px]">
 				<div class="">
 					<h1 class="text-3xl text-dark font-sans">
 						<b>SurviWeb</b>
@@ -16,7 +15,7 @@ import Layout from "../layouts/Layout.astro";
 					<p class="text-md">
 						Ofrecemos un cliente y un servidor, con una web para
 						documentar los mods y forma de instalar para los nuevos,
-						<b class="text-[#2c1e1b]"
+						<b class=""
 							>hecho para jugar con tus amigos y Survi-Divertirte</b
 						>
 					</p>
@@ -40,7 +39,7 @@ import Layout from "../layouts/Layout.astro";
 					</a>
 
 					<a
-						href=""
+						href="https://www.tiktok.com/@survicraft_2"
 						class="bg-[#4c3730] hover:bg-[#3c2a26]
 						mr-2 mb-2 px-2.5 py-1.5
 						 font-medium text-center
@@ -71,7 +70,7 @@ import Layout from "../layouts/Layout.astro";
 						></a
 					>
 					<a
-						href=""
+						href="https://discord.com/invite/qpU4qSXBuT"
 						class="bg-[#4c3730] hover:bg-[#3c2a26]
 						mr-2 mb-2 px-2.5 py-1.5
 						 font-medium text-center
@@ -115,10 +114,11 @@ import Layout from "../layouts/Layout.astro";
 				/>
 			</div>
 		</div>
-
+		<br id="mods"/>
+		{/*generacion de mundo*/}
 		<div class="flex flex-col justify-center mt-9 items-center">
 			<h2
-				class="text-center text-[#4c3730] text-2xl underline mb-2 max-w-[350px] md:w-full md:min-w-[450px]"
+				class="text-center text-white text-2xl underline mb-2 max-w-[350px] md:w-full md:min-w-[450px]"
 			>
 				<b>Generación de Mundo:</b>
 			</h2>
@@ -141,7 +141,7 @@ import Layout from "../layouts/Layout.astro";
 							alt="Biomes O’ Plenty"
 						/>
 					</div>
-					<p class="text-[#4c3730] text-sm text-center">
+					<p class="text-white text-sm text-center">
 						<b>Biomes </b><br /><b class="group-hover:underline"
 							>O’ Plenty</b
 						>
@@ -163,7 +163,7 @@ import Layout from "../layouts/Layout.astro";
 							alt="TerraBlender"
 						/>
 					</div>
-					<p class="text-[#4c3730] text-sm text-center">
+					<p class="text-white text-sm text-center">
 						<b class="group-hover:underline">TerraBlender</b>
 					</p>
 				</a>
@@ -183,7 +183,7 @@ import Layout from "../layouts/Layout.astro";
 							alt="Terralith"
 						/>
 					</div>
-					<p class="text-[#4c3730] text-sm text-center">
+					<p class="text-white text-sm text-center">
 						<b class="group-hover:underline">Terralith</b>
 					</p>
 				</a>
@@ -203,7 +203,7 @@ import Layout from "../layouts/Layout.astro";
 							alt="Lithostitched"
 						/>
 					</div>
-					<p class="text-[#4c3730] text-sm text-center">
+					<p class="text-white text-sm text-center">
 						<b class="group-hover:underline">Lithostitched </b>
 					</p>
 				</a>
@@ -223,7 +223,7 @@ import Layout from "../layouts/Layout.astro";
 							alt="Geophilic"
 						/>
 					</div>
-					<p class="text-[#4c3730] text-sm text-center">
+					<p class="text-white text-sm text-center">
 						<b class="group-hover:underline">Geophilic</b>
 					</p>
 				</a>
@@ -243,18 +243,98 @@ import Layout from "../layouts/Layout.astro";
 							alt="deeperdarker"
 						/>
 					</div>
-					<p class="text-[#4c3730] text-sm text-center">
+					<p class="text-white text-sm text-center">
 						<b>Deeper</b><br /><b class="group-hover:underline"
 							>and Darker</b
 						>
 					</p>
 				</a>
+				<a
+					href="https://www.curseforge.com/minecraft/mc-mods/tectonic"
+					target="_blank"
+					class="w-fit flex flex-col group"
+				>
+					<div
+						class="relative hover:cursor-pointer hover:scale-105 hover:contrast-125 transition z-10 col-span-2 min-h-[100px] min-w-[100px] overflow-hidden bg-gradient-to-br from-[#BCE2FF] via-[#7FA8FF] to-[#7FA8FF] w-fit border rounded-lg m-2"
+					>
+						<img
+							src="/tectonic.avif"
+							class="absolute h-full w-full z-20 group-hover:-rotate-12 group-hover:scale-125 transition-transform"
+							width={50}
+							height={50}
+							alt="Tectonic"
+						/>
+					</div>
+					<p class="text-white text-sm text-center">
+						<b class="group-hover:underline">Tectonic</b>
+					</p>
+				</a>
+				<a
+					href="https://www.curseforge.com/minecraft/mc-mods/explorify"
+					target="_blank"
+					class="w-fit flex flex-col group"
+				>
+					<div
+						class="relative hover:cursor-pointer hover:scale-105 hover:contrast-125 transition z-10 col-span-2 min-h-[100px] min-w-[100px] overflow-hidden bg-gradient-to-br from-[#F6642C] via-[#F67E31] to-[#F6642C] w-fit border rounded-lg m-2"
+					>
+						<img
+							src="/explorify.avif"
+							class="absolute h-full w-full z-20 group-hover:-rotate-12 group-hover:scale-125 transition-transform"
+							width={50}
+							height={50}
+							alt="Explorify"
+						/>
+					</div>
+					<p class="text-white text-sm text-center">
+						<b class="group-hover:underline">Explorify</b>
+					</p>
+				</a>
+				<a
+					href="https://www.curseforge.com/minecraft/mc-mods/deeper-caves"
+					class="w-fit flex flex-col group"
+					target="_blank"
+				>
+					<div
+						class="relative hover:cursor-pointer hover:scale-105 hover:contrast-125 transition z-10 col-span-2 min-h-[100px] min-w-[100px] overflow-hidden bg-gradient-to-br from-[#93B8E2] via-[#93B8E2] to-[#93B8E2] w-fit border rounded-lg m-2"
+					>
+						<img
+							src="/deepercaves.avif"
+							class="absolute h-full w-full z-20 group-hover:-rotate-12 group-hover:scale-175 transition-transform"
+							width={50}
+							height={50}
+							alt="Deeper Caves"
+						/>
+					</div>
+					<p class="text-white text-sm text-center">
+						<b class="group-hover:underline">Deeper Caves</b>
+					</p>
+				</a>
+				<a
+					href="https://www.curseforge.com/minecraft/mc-mods/incendium"
+					class="w-fit flex flex-col group"
+					target="_blank"
+				>
+					<div
+						class="relative hover:cursor-pointer hover:scale-105 hover:contrast-125 transition z-10 col-span-2 min-h-[100px] min-w-[100px] overflow-hidden bg-gradient-to-br from-[#93B8E2] via-[#93B8E2] to-[#93B8E2] w-fit border rounded-lg m-2"
+					>
+						<img
+							src="/incendium.avif"
+							class="absolute h-full w-full z-20 group-hover:-rotate-12 group-hover:scale-175 transition-transform"
+							width={50}
+							height={50}
+							alt="Incendium"
+						/>
+					</div>
+					<p class="text-white text-sm text-center">
+						<b class="group-hover:underline">Incendium</b>
+					</p>
+				</a>
 			</div>
 		</div>
-
+		{/*estructuras*/}
 		<div class="flex flex-col justify-center mt-9 items-center">
 			<h2
-				class="text-center text-[#4c3730] text-2xl underline mb-2 max-w-[350px] md:w-full md:min-w-[450px]"
+				class="text-center text-white text-2xl underline mb-2 max-w-[350px] md:w-full md:min-w-[450px]"
 			>
 				<b>Estructuras:</b>
 			</h2>
@@ -277,7 +357,7 @@ import Layout from "../layouts/Layout.astro";
 							alt="Dungeons Arise"
 						/>
 					</div>
-					<p class="text-[#4c3730] text-sm text-center">
+					<p class="text-white text-sm text-center">
 						<b>Dungeons</b><br /><b class="group-hover:underline"
 							>Arise</b
 						>
@@ -299,58 +379,38 @@ import Layout from "../layouts/Layout.astro";
 							alt="Dungeons Arise"
 						/>
 					</div>
-					<p class="text-[#4c3730] text-sm text-center">
+					<p class="text-white text-sm text-center">
 						<b>Dungeons</b><br /><b class="group-hover:underline"
 							>Arise</b
 						>
 					</p>
 				</a>
 				<a
-					href="https://www.curseforge.com/minecraft/mc-mods/tectonic"
-					target="_blank"
+					href="https://www.curseforge.com/minecraft/mc-mods/hopo-better-underwater-ruins"
 					class="w-fit flex flex-col group"
+					target="_blank"
 				>
 					<div
-						class="relative hover:cursor-pointer hover:scale-105 hover:contrast-125 transition z-10 col-span-2 min-h-[100px] min-w-[100px] overflow-hidden bg-gradient-to-br from-[#BCE2FF] via-[#7FA8FF] to-[#7FA8FF] w-fit border rounded-lg m-2"
+						class="relative hover:cursor-pointer hover:scale-105 hover:contrast-125 transition z-10 col-span-2 min-h-[100px] min-w-[100px] overflow-hidden bg-gradient-to-br from-[#93B8E2] via-[#93B8E2] to-[#93B8E2] w-fit border rounded-lg m-2"
 					>
 						<img
-							src="/tectonic.avif"
-							class="absolute h-full w-full z-20 group-hover:-rotate-12 group-hover:scale-125 transition-transform"
+							src="/hopo.avif"
+							class="absolute h-full w-full z-20 group-hover:-rotate-12 group-hover:scale-175 transition-transform"
 							width={50}
 							height={50}
-							alt="Tectonic"
+							alt="Hopo Underwater"
 						/>
 					</div>
-					<p class="text-[#4c3730] text-sm text-center">
-						<b class="group-hover:underline">Tectonic</b>
-					</p>
-				</a>
-				<a
-					href="https://www.curseforge.com/minecraft/mc-mods/explorify"
-					target="_blank"
-					class="w-fit flex flex-col group"
-				>
-					<div
-						class="relative hover:cursor-pointer hover:scale-105 hover:contrast-125 transition z-10 col-span-2 min-h-[100px] min-w-[100px] overflow-hidden bg-gradient-to-br from-[#F6642C] via-[#F67E31] to-[#F6642C] w-fit border rounded-lg m-2"
-					>
-						<img
-							src="/explorify.avif"
-							class="absolute h-full w-full z-20 group-hover:-rotate-12 group-hover:scale-125 transition-transform"
-							width={50}
-							height={50}
-							alt="Explorify"
-						/>
-					</div>
-					<p class="text-[#4c3730] text-sm text-center">
-						<b class="group-hover:underline">Explorify</b>
+					<p class="text-white text-sm text-center">
+						<b class="group-hover:underline">Underwater</b>
 					</p>
 				</a>
 			</div>
 		</div>
-
+		{/*gameplay*/}
 		<div class="flex flex-col justify-center mt-9 items-center">
 			<h2
-				class="text-center text-[#4c3730] text-2xl underline mb-2 max-w-[350px] md:w-full md:min-w-[450px]"
+				class="text-center text-white text-2xl underline mb-2 max-w-[350px] md:w-full md:min-w-[450px]"
 			>
 				<b>Gameplay:</b>
 			</h2>
@@ -373,7 +433,7 @@ import Layout from "../layouts/Layout.astro";
 							alt="Alex’s Mobs"
 						/>
 					</div>
-					<p class="text-[#4c3730] text-sm text-center">
+					<p class="text-white text-sm text-center">
 						<b class="group-hover:underline">Alex’s Mobs</b>
 					</p>
 				</a>
@@ -393,7 +453,7 @@ import Layout from "../layouts/Layout.astro";
 							alt="Ambient Additions"
 						/>
 					</div>
-					<p class="text-[#4c3730] text-sm text-center">
+					<p class="text-white text-sm text-center">
 						<b>Ambient</b><br /><b class="group-hover:underline"
 							>Addition</b
 						>
@@ -415,7 +475,7 @@ import Layout from "../layouts/Layout.astro";
 							alt="Aquamirae"
 						/>
 					</div>
-					<p class="text-[#4c3730] text-sm text-center">
+					<p class="text-white text-sm text-center">
 						<b class="group-hover:underline">Aquamirae</b>
 					</p>
 				</a>
@@ -435,7 +495,7 @@ import Layout from "../layouts/Layout.astro";
 							alt="carryon"
 						/>
 					</div>
-					<p class="text-[#4c3730] text-sm text-center">
+					<p class="text-white text-sm text-center">
 						<b class="group-hover:underline">Carry On</b>
 					</p>
 				</a>
@@ -455,7 +515,7 @@ import Layout from "../layouts/Layout.astro";
 							alt="gravestone"
 						/>
 					</div>
-					<p class="text-[#4c3730] text-sm text-center">
+					<p class="text-white text-sm text-center">
 						<b class="group-hover:underline">Gravestone</b>
 					</p>
 				</a>
@@ -475,7 +535,7 @@ import Layout from "../layouts/Layout.astro";
 							alt="Back"
 						/>
 					</div>
-					<p class="text-[#4c3730] text-sm text-center">
+					<p class="text-white text-sm text-center">
 						<b class="group-hover:underline">Backpack</b>
 					</p>
 				</a>
@@ -495,16 +555,96 @@ import Layout from "../layouts/Layout.astro";
 							alt="Back"
 						/>
 					</div>
-					<p class="text-[#4c3730] text-sm text-center">
+					<p class="text-white text-sm text-center">
 						<b class="group-hover:underline">Waystones</b>
+					</p>
+				</a>
+				<a
+					href="https://www.curseforge.com/minecraft/mc-mods/critters-and-companions"
+					class="w-fit flex flex-col group"
+					target="_blank"
+				>
+					<div
+						class="relative hover:cursor-pointer hover:scale-105 hover:contrast-125 transition z-10 col-span-2 min-h-[100px] min-w-[100px] overflow-hidden bg-gradient-to-br from-[#93B8E2] via-[#93B8E2] to-[#93B8E2] w-fit border rounded-lg m-2"
+					>
+						<img
+							src="/critters.avif"
+							class="absolute h-full w-full z-20 group-hover:-rotate-12 group-hover:scale-175 transition-transform"
+							width={50}
+							height={50}
+							alt="Critters"
+						/>
+					</div>
+					<p class="text-white text-sm text-center">
+						<b class="group-hover:underline">Critters</b>
+					</p>
+				</a>
+				<a
+					href="https://www.curseforge.com/minecraft/mc-mods/ecologics"
+					class="w-fit flex flex-col group"
+					target="_blank"
+				>
+					<div
+						class="relative hover:cursor-pointer hover:scale-105 hover:contrast-125 transition z-10 col-span-2 min-h-[100px] min-w-[100px] overflow-hidden bg-gradient-to-br from-[#93B8E2] via-[#93B8E2] to-[#93B8E2] w-fit border rounded-lg m-2"
+					>
+						<img
+							src="/ecologics.avif"
+							class="absolute h-full w-full z-20 group-hover:-rotate-12 group-hover:scale-175 transition-transform"
+							width={50}
+							height={50}
+							alt="Ecologics"
+						/>
+					</div>
+					<p class="text-white text-sm text-center">
+						<b class="group-hover:underline">Ecologics</b>
+					</p>
+				</a>
+				<a
+					href="https://www.curseforge.com/minecraft/mc-mods/coastal-waves"
+					class="w-fit flex flex-col group"
+					target="_blank"
+				>
+					<div
+						class="relative hover:cursor-pointer hover:scale-105 hover:contrast-125 transition z-10 col-span-2 min-h-[100px] min-w-[100px] overflow-hidden bg-gradient-to-br from-[#93B8E2] via-[#93B8E2] to-[#93B8E2] w-fit border rounded-lg m-2"
+					>
+						<img
+							src="/waves.avif"
+							class="absolute h-full w-full z-20 group-hover:-rotate-12 group-hover:scale-175 transition-transform"
+							width={50}
+							height={50}
+							alt="Waves"
+						/>
+					</div>
+					<p class="text-white text-sm text-center">
+						<b class="group-hover:underline">Waves</b>
+					</p>
+				</a>
+				<a
+					href="https://www.curseforge.com/minecraft/mc-mods/survive"
+					class="w-fit flex flex-col group"
+					target="_blank"
+				>
+					<div
+						class="relative hover:cursor-pointer hover:scale-105 hover:contrast-125 transition z-10 col-span-2 min-h-[100px] min-w-[100px] overflow-hidden bg-gradient-to-br from-[#93B8E2] via-[#93B8E2] to-[#93B8E2] w-fit border rounded-lg m-2"
+					>
+						<img
+							src="/survive.avif"
+							class="absolute h-full w-full z-20 group-hover:-rotate-12 group-hover:scale-175 transition-transform"
+							width={50}
+							height={50}
+							alt="Survive"
+						/>
+					</div>
+					<p class="text-white text-sm text-center">
+						<b class="group-hover:underline">Survive</b>
 					</p>
 				</a>
 			</div>
 		</div>
-
+		{/*decoracion*/}
 		<div class="flex flex-col justify-center mt-9 items-center">
 			<h2
-				class="text-center text-[#4c3730] text-2xl underline mb-2 max-w-[350px] md:w-full md:min-w-[450px]"
+				class="text-center text-white text-2xl underline mb-2 max-w-[350px] md:w-full md:min-w-[450px]"
 			>
 				<b>Decoracion:</b>
 			</h2>
@@ -527,14 +667,11 @@ import Layout from "../layouts/Layout.astro";
 							alt="Dungeons Arise"
 						/>
 					</div>
-					<p class="text-[#4c3730] text-sm text-center">
-						<b>Dungeons</b><br /><b class="group-hover:underline"
-							>Arise</b
+					<p class="text-white text-sm text-center">
+						<b>Dungeons</b><br /><b class="group-hover:underline">Arise</b
 						>
 					</p>
 				</a>
-				
 			</div>
 		</div>
-	</body></Layout
->
+	</body></Layout>
